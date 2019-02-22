@@ -54,7 +54,6 @@ export class DrugPolarChartsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.dataselector)
   }
   onLegendSelect(event) {
     this.legendSelector = this.interfacedata.find(item => item.name === event);
