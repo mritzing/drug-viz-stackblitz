@@ -10,7 +10,7 @@
   <div class="content">
     <ngx-charts-polar-chart [view]="polarView" [results]="dataselector.data" [legend]="true" [showXAxisLabel]="true"
       [showYAxisLabel]="false" [xAxis]="true" [yAxis]="false" [labelTrim]="false" [animations]="false" [tooltipDisabled]="false"
-      [showSeriesOnHover]="true" [yAxisMinScale]=3 (legendLabelClick)="onLegendLabelClick($event)" (select)="onLegendSelect($event)">
+      [showSeriesOnHover]="true" [yAxisMinScale]=3  (select)="onLegendSelect($event)">
     </ngx-charts-polar-chart>
     <div *ngIf="legendSelector">
       <div>{{legendSelector.name}}</div>
