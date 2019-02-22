@@ -10,14 +10,12 @@ import { dataJSON } from './datainterface';
 })
 
 export class DrugPolarChartsComponent implements OnInit {
-  private interfacedata = dataJSON;
-  private legendSelector: any;
-  private polarView: any[] = [900, 700];
-  private barView: any[] = [400, 400];
-
-  private xAxisLabel = "Test Label";
-
-  private dataselectList: Idataselect[] =[
+   interfacedata = dataJSON;
+   legendSelector: any;
+   polarView: any[] = [900, 700];
+   barView: any[] = [400, 400];
+   xAxisLabel = "Test Label";
+   dataselectList: Idataselect[] =[
     {
       id: 1,
       data: sched1,
